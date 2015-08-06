@@ -155,7 +155,7 @@ static const char KPickerHandler;
     [self.valueWithComponents setObject:[NSString stringWithFormat:@"%ld",  (long)row] forKey:[NSString stringWithFormat:@"%ld",  (long)component]];
     
     self.defaultRow = row;
-    self.defaultComponent = row;
+    self.defaultComponent = component;
     
 }
 
